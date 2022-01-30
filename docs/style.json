@@ -5,7 +5,7 @@
     "gsibv-vectortile-source-1-4-16": {
       "type": "vector",
       "tiles": [
-        "https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf"
+        "https://x.optgeo.org/kagami/zxy/{z}/{x}/{y}.pbf"
       ],
       "minzoom": 4,
       "maxzoom": 16,
