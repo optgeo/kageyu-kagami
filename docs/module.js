@@ -27,12 +27,7 @@ const showMap = async (texts) => {
     container: 'map',
     hash: true,
     style: 'style.json',
-    maxZoom: 19.6,
-    projection: {
-      name: 'lambertConformalConic',
-      center: [140, 45],
-      parallels: [60, 30]
-    }
+    maxZoom: 22
   })
   map.addControl(new mapgl.NavigationControl())
   map.addControl(new mapgl.ScaleControl({
